@@ -1,0 +1,28 @@
+{
+  "name": "smorken/sanitizer",
+  "description": "",
+  "authors": [
+    {
+      "name": "Scott Morken",
+      "email": "scott.morken@phoenixcollege.edu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ezyang/htmlpurifier": "dev-master"
+  },
+  "require-dev": {
+    "mockery/mockery": "dev-master",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smorken\\Sanitizer\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer_stable": true
+}
